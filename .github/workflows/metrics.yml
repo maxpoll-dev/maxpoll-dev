@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: maxpoll-dev
-          commits_authoring: max-poll, maxpoll-dev, poll.mx@yandex.ru, maxpoll7560@gmail.com
+          commits_authoring: maxpoll-dev, max-poll, poll.mx@yandex.ru, 120454095+maxpoll-dev@users.noreply.github.com
           filename: github-metrics.svg
 
           template: classic
