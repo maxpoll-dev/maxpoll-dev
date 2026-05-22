@@ -42,9 +42,8 @@ Developing e-commerce systems with integrations across analytics platforms and A
 
 ### GitHub
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=maxpoll-dev&show_icons=true&hide_border=true&hide_title=true&hide_rank=true&include_all_commits=true&theme=transparent" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxpoll-dev&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="top langs" />
+<p align="center">
+  <img src="./github-metrics.svg" alt="GitHub metrics" />
 </p>
 
 ---
