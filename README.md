@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=42B883&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Max!;Fullstack+Developer;Nuxt+%E2%80%A2+Nest.js+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing SVG" />
 </h1>
 
-Fullstack developer based in Sochi, Russia. I design and build production-grade web applications, with a current focus on e-commerce platforms and their integrations.
+Fullstack developer based in Sochi, Russia. I build production-grade web applications, with a current focus on e-commerce platforms and their integrations.
 
 ### Focus for 2026
 
@@ -30,13 +30,18 @@ Developing e-commerce systems with integrations across analytics platforms and A
 
 **Currently learning**
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![AI Harnesses](https://img.shields.io/badge/AI_Harnesses-orchestration-42B883?style=for-the-badge)
 
----
-
-### Featured project
-
-**[multi-llm-telegram-bot](https://github.com/maxpoll-dev/multi-llm-telegram-bot)** — a Telegram bot that routes prompts across multiple LLM providers from a single chat. Switch models on the fly, compare answers, keep all conversations in one place.
+```mermaid
+flowchart LR
+    A[Intent in words] --> B[Orchestrator]
+    B --> C[Planread-only tools]
+    C --> D[Dry-run sample]
+    D --> E{Humanapproval}
+    E -->|approved| F[Worker generatesproposals]
+    F --> G{Diff review}
+    G -->|approved| H[Apply]
+```
 
 ---
 
