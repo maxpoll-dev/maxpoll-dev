@@ -35,10 +35,10 @@ Developing e-commerce systems with integrations across analytics platforms and A
 ```mermaid
 flowchart LR
     A[Intent in words] --> B[Orchestrator]
-    B --> C[Planread-only tools]
+    B --> C[Plan with read-only tools]
     C --> D[Dry-run sample]
-    D --> E{Humanapproval}
-    E -->|approved| F[Worker generatesproposals]
+    D --> E{Human approval}
+    E -->|approved| F[Worker generates proposals]
     F --> G{Diff review}
     G -->|approved| H[Apply]
 ```
