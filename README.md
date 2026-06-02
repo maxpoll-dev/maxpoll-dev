@@ -32,17 +32,6 @@ Developing e-commerce systems with integrations across analytics platforms and A
 
 ![AI Harnesses](https://img.shields.io/badge/AI_Harnesses-orchestration-42B883?style=for-the-badge)
 
-```mermaid
-flowchart LR
-    A[Intent in words] --> B[Orchestrator]
-    B --> C[Plan with read-only tools]
-    C --> D[Dry-run sample]
-    D --> E{Human approval}
-    E -->|approved| F[Worker generates proposals]
-    F --> G{Diff review}
-    G -->|approved| H[Apply]
-```
-
 ---
 
 ### GitHub
@@ -55,4 +44,4 @@ flowchart LR
 
 ### Get in touch
 
-[![Telegram](https://img.shields.io/badge/Telegram-%40maxpoll__dev-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/maxpoll_dev)
+[![Telegram](https://img.shields.io/badge/Telegram-%40maxpoll__dev-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/max_poll)
