@@ -13,11 +13,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: maxpoll-dev
-          commits_authoring: maxpoll-dev, max-poll, poll.mx@yandex.ru, 120454095+maxpoll-dev@users.noreply.github.com
+          commits_authoring: maxpoll-dev, max-poll, poll.mx@yandex.ru, maxpoll7560@gmail.com, poll.mx@ya.ru
           filename: github-metrics.svg
 
           template: classic
@@ -28,10 +28,10 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss, dockerfile, makefile
           plugin_languages_details: percentage, lines
-          plugin_languages_limit: 8
+          plugin_languages_limit: 10
           plugin_languages_sections: most-used
           plugin_languages_categories: markup, programming
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 5
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_analysis_timeout_repositories: 10
           plugin_languages_skipped: maxpoll-dev/maxpoll-dev
