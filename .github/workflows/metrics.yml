@@ -1,12 +1,10 @@
 name: Generate GitHub metrics
-
 on:
   schedule:
     - cron: "0 4 * * *"
   workflow_dispatch:
   push:
     branches: ["main"]
-
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -17,21 +15,19 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: maxpoll-dev
-          commits_authoring: maxpoll-dev, max-poll, poll.mx@yandex.ru, maxpoll7560@gmail.com, poll.mx@ya.ru
+          commits_authoring: poll.mx@yandex.ru, poll.mx@yandex.ru, 120454095+maxpoll-dev@users.noreply.github.com
           filename: github-metrics.svg
-
           template: classic
           base: header, activity, community, repositories
           config_timezone: Europe/Moscow
+          repositories: 100
           repositories_affiliations: owner, collaborator, organization_member
-
+ 
           plugin_languages: yes
+          plugin_languages_indepth: no
           plugin_languages_ignored: html, css, scss, dockerfile, makefile
-          plugin_languages_details: percentage, lines
-          plugin_languages_limit: 10
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_categories: markup, programming
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_analysis_timeout_repositories: 10
-          plugin_languages_skipped: maxpoll-dev/maxpoll-dev
+          plugin_languages_skipped: maxpoll-dev/maxpoll-dev, csgdigital/raissport-bitrix, csgdigital/svyataya-bitrix, csgdigital/gospel-mobile-app, csgdigital/brics-2025-frontend
