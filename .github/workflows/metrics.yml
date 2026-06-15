@@ -15,10 +15,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: maxpoll-dev
-          commits_authoring: poll.mx@yandex.ru, poll.mx@yandex.ru, 120454095+maxpoll-dev@users.noreply.github.com
+          commits_authoring: poll.mx@yandex.ru, 120454095+maxpoll-dev@users.noreply.github.com
           filename: github-metrics.svg
           template: classic
-          base: header, activity, community, repositories
+          base: header, activity
           config_timezone: Europe/Moscow
           repositories: 100
           repositories_affiliations: owner, collaborator, organization_member
@@ -30,4 +30,4 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_categories: markup, programming
-          plugin_languages_skipped: maxpoll-dev/maxpoll-dev, csgdigital/raissport-bitrix, csgdigital/svyataya-bitrix, csgdigital/gospel-mobile-app, csgdigital/brics-2025-frontend
+          plugin_languages_skipped: maxpoll-dev/maxpoll-dev
