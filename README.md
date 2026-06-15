@@ -60,4 +60,4 @@ Developing e-commerce systems with integrations across analytics platforms and A
 
 ### Get in touch
 
-[![Telegram](https://img.shields.io/badge/Telegram-%40maxpoll__dev-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/max_poll)
+[![Telegram](https://img.shields.io/badge/Telegram-%40max_poll-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/max_poll)
