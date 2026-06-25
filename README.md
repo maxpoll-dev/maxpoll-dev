@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=42B883&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Max!;Fullstack+Developer;Nuxt+%E2%80%A2+Nest.js+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=42B883&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Max!;Fullstack+Developer;Vue+%E2%80%A2+NestJS+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Typing SVG" />
 </h1>
 
 Fullstack developer based in Sochi, Russia. I build production-grade web applications, with a current focus on e-commerce platforms and their integrations.
